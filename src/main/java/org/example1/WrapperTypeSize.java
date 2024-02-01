@@ -3,10 +3,10 @@ package org.example1;
 public class WrapperTypeSize {
 
     public static void main(String[] args) {
-        System.out.println(Byte.SIZE); // 22 . 1byte = 8 Bits
-        // 2^8 = 256
-        System.out.println(Byte.MIN_VALUE); // -128 = - (2^8)/2
-        System.out.println(Byte.MAX_VALUE); // 127 = (2^8 -1)
+        System.out.println(Byte.SIZE); // 1byte = 8 Bits = n
+        // 2^8 = 256 // 2^n-1
+        System.out.println(Byte.MIN_VALUE); // -128 = - (2^7)
+        System.out.println(Byte.MAX_VALUE); // 127 = (2^7 -1)
         // -128, -127 , -126, .. 0, 1, 2, 127
         byte b = (byte) 129;
         System.out.println(b);
@@ -20,6 +20,11 @@ public class WrapperTypeSize {
         System.out.println(Short.SIZE);
         System.out.println(Short.MIN_VALUE);
         System.out.println(Short.MAX_VALUE);
+
+        short s = (short)32768;
+
+        // s is a variable
+        // s is a variable of primitive type short
 
         System.out.println("integer");
         System.out.println(Integer.SIZE);
