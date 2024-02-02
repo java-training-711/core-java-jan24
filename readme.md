@@ -1,3 +1,12 @@
+## 2nd Feb 2024
+- Array declaration
+- initialization
+- recursion
+- stackoverflow error
+- default values
+- array as params and modify index
+- array as return values for finding squares
+
 ## 1st Feb 2024
 - 1d array and 2d array
 
