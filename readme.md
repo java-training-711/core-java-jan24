@@ -1,3 +1,5 @@
+## 6th Feb 2024
+- Object class methods
 ## 2nd Feb 2024
 - Array declaration
 - initialization
