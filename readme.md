@@ -1,3 +1,10 @@
+## 9th Feb 2024
+- interface, static methods
+- abstract class
+- strategy design pattern
+- template design pattern
+- serialization
+
 ## 8th Feb 2024
 - class & objects
 - inheritance
