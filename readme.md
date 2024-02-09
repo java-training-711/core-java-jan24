@@ -1,3 +1,12 @@
+## 8th Feb 2024
+- class & objects
+- inheritance
+- overriding
+- this as keyword
+- this as constructor
+- super as keyword
+- super as constructor in inheritance
+
 ## 6th Feb 2024
 - Object class methods
 ## 2nd Feb 2024
