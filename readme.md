@@ -1,3 +1,8 @@
+## 13th Feb 2024
+- inheritance & modifiers
+- comparator sorting (asc, desc)
+- arraylist basics
+
 ## 9th Feb 2024
 - interface, static methods
 - abstract class
