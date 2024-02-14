@@ -1,3 +1,6 @@
+## 14th Feb 2024
+- ArrayList with String
+- ArrayList with Employee (assignment)
 ## 13th Feb 2024
 - inheritance & modifiers
 - comparator sorting (asc, desc)
