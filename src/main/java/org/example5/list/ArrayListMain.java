@@ -1,6 +1,7 @@
 package org.example5.list;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayListMain {
@@ -12,8 +13,70 @@ public class ArrayListMain {
     // replace
     // remove
 
-    // C: create, R: read. U: update, D; delete
     public static void main(String[] args) {
+//        withStringElements();
+        withEmployee();
+    }
+
+    private static void withEmployee(){
+        Employee e1 = new Employee(1, "E1", "C1");
+        Employee e2= new Employee(2, "E2", "C2");
+
+        List<Employee> employees = new ArrayList<>();
+        employees.add(e1);
+        employees.add(e2);
+
+        Employee e3 = new Employee(2, "E11", "C11");
+        System.out.println(employees.lastIndexOf(e3));
+//        employees.remove(e3);
+        System.out.println(employees);
+    }
+    private static class Employee{
+        private int id;
+        private String name;
+        private String city;
+
+        public Employee(int id, String name, String city) {
+            this.id = id;
+            this.name = name;
+            this.city = city;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public String getCity() {
+            return city;
+        }
+
+        @Override
+        public String toString() {
+            return "Employee{" +
+                    "id=" + id +
+                    ", name='" + name + '\'' +
+                    ", city='" + city + '\'' +
+                    '}';
+        }
+
+        // object class equals compare the references using ==
+        @Override
+        public boolean equals(Object obj) { // this should be for content comparison not reference comparison
+            System.out.println(obj);
+            System.out.println(":"+this);
+//            return super.equals(obj);
+            Employee e =(Employee) obj;
+            Integer id1 = this.getId();
+            Integer id2 = e.getId();
+            return id1.equals(id2);
+        }
+    }
+    // C: create, R: read. U: update, D; delete
+    public static void withStringElements() {
         // list
         // java.util.List
 
@@ -22,6 +85,7 @@ public class ArrayListMain {
         list.add("Alex");
         list.add("Andrew");
         list.add("Ollie");
+        list.add("Andrew");
 
         System.out.println(list);
 
@@ -39,5 +103,64 @@ public class ArrayListMain {
         String removedValue = list.remove(0);
         System.out.println(removedValue);
         System.out.println(list);
+
+        boolean removed = list.remove("Andrew");
+        System.out.println(removed);
+        System.out.println(list);
+
+        list.add("David");
+        list.add("Tim");
+        list.add("Josh");
+        list.add("Mathew");
+
+        System.out.println(list);
+
+        List<String> cleanUpList = Arrays.asList("Alex", "David", "Ollie");
+        list.removeAll(cleanUpList);
+        System.out.println(list);
+
+        List<String> retainList = Arrays.asList("Tim", "Josh", "James");
+        list.retainAll(retainList); // retain only matching elements and remove all others
+        System.out.println(list);
+
+        list.add("James");
+        list.add("Tim");
+        System.out.println(list);
+
+        String item = "Tim";
+        boolean result =  list.contains(item);
+        System.out.println(result);
+
+        result = list.containsAll(retainList);
+        System.out.println(result);
+
+        List<String> names = Arrays.asList("Michale", "Hamis");
+        list.addAll(names);
+        System.out.println(list);
+
+        list.set(0, "Tom");
+        list.add(2, "Tom");
+        System.out.println(list);
+        list.addAll(3, names);
+        System.out.println(list);
+
+
+        System.out.println(list.size());
+        System.out.println(list.isEmpty());
+
+        int beginIndex = list.indexOf("Tom");
+        System.out.println(beginIndex);
+        int lastIndex = list.lastIndexOf("Tom");
+        System.out.println(lastIndex);
+
+        List<String> list1 = new ArrayList<>();
+        System.out.println(list1.isEmpty());
+
+        list.clear();
+        System.out.println(list.isEmpty());
+
+        list.addAll(retainList);
+        System.out.println(list);
+
     }
 }
