@@ -1,6 +1,12 @@
+## 15th Feb 2024
+- LinkedList with String
+- Final keyword
+- ArrayList Internal Add method operation
+
 ## 14th Feb 2024
 - ArrayList with String
 - ArrayList with Employee (assignment)
+
 ## 13th Feb 2024
 - inheritance & modifiers
 - comparator sorting (asc, desc)
