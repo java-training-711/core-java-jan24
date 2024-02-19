@@ -1,3 +1,10 @@
+## 16th Feb 2024
+- vector has synchronized methods. enumerate with vectors
+- stack extends vector
+- queue is first in first out
+- custom linked list example
+- list as array elements
+  
 ## 15th Feb 2024
 - LinkedList with String
 - Final keyword
