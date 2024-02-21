@@ -1,6 +1,10 @@
 package org.example5.list.assignment;
 
+import org.example5.list.ArrayListMain;
+
 import java.util.LinkedList;
+import java.util.Arrays;
+import java.util.List;
 
 public class LinkedListMain {
 
@@ -8,6 +12,7 @@ public class LinkedListMain {
         withBasicLinkedList();
         System.out.println("-----------------");
         withJavaLinkedList();
+        withEmployeeLinkedList();
     }
 
     // application: v1 - v1.1 - v1.2 - v2 - v3
@@ -48,20 +53,77 @@ public class LinkedListMain {
         System.out.println(names.peekFirst());
         System.out.println(names.element());// peekFirst
         System.out.println(names);
-        System.out.println(names.poll()); // returns and removes fiorst element
-        System.out.println(names.poll()); // returns and removes fiorst element
-        System.out.println(names.poll()); // returns and removes fiorst element
-        System.out.println(names.poll()); // returns and removes fiorst element if exist or else null
+        System.out.println(names.poll()); // returns and removes first element
+        System.out.println(names.poll()); // returns and removes first element
+        System.out.println(names.poll()); // returns and removes first element
+        System.out.println(names.poll()); // returns and removes first element if exist or else null
         System.out.println(names);
         System.out.println(names.peekLast());
-//
+        System.out.println(names.peekFirst());
+        System.out.println(names.retainAll(names));
+        System.out.println("..........................");
+        names.add("John");
+        names.add("David");
+        names.add("Bell");
+        System.out.println(names);
+        names.set(0, "Rich");
+        System.out.println(names);
+        System.out.println(names.indexOf("Rich"));
+        System.out.println("************");
+        System.out.println(names.lastIndexOf("David"));
 //        removeAll, retainAll, set, clear, peek, peekLast, peekFirst,
 //        indexdOf, lastIndexOff
 
         // do employee object
     }
 
+
+
+
+
     // n1: [value: 10 | next ] -> n2: [value: 20 | next]
+
+    private static void withEmployeeLinkedList() {
+        LinkedList<String> employee = new LinkedList<>();
+        employee.add("Rich");
+        employee.add("Gary");
+        employee.addFirst("Shannon");
+        employee.addLast("Priya");
+        employee.add("Perry");
+        System.out.println("......");
+        System.out.println(employee);
+        System.out.println(employee.getFirst());
+        System.out.println(employee.getLast());
+        System.out.println(".........");
+
+        System.out.println(employee.get(2));
+        System.out.println(employee);
+        System.out.println("...........");
+
+        employee.remove();
+        System.out.println(employee);
+        System.out.println(".............");
+        employee.removeLast();
+        System.out.println(employee);
+        System.out.println("..............");
+        employee.add("Josh");
+        employee.add("Paul");
+        System.out.println(employee);
+        System.out.println("................");
+
+        employee.removeFirstOccurrence("Rich");
+        System.out.println(employee);
+        System.out.println(".................");
+
+        System.out.println(employee.peekFirst());
+        System.out.println(employee.peekLast());
+        System.out.println(employee);
+        System.out.println("..................");
+
+        System.out.println(employee.element());
+        System.out.println(employee);
+
+    }
 
     private static void withBasicLinkedList() {
         Node n1 = new Node();
@@ -93,5 +155,8 @@ public class LinkedListMain {
     private static class Node {
         int value;
         Node next;
+
     }
+
+
 }
