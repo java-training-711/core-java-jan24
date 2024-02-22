@@ -1,3 +1,9 @@
+## 22nd Feb 2024
+- Map examples with use cases
+- HashSet, LinkedHashSet, TreeSet (custom sorting logic)
+- properties and hash table
+- reading properties from classpath and user.home
+
 ## 21st Feb 2024
 - HashMap, LinkedHashMap, TreeMap (comparable and comparator usage with custom key)
 - HashMap internal with replace and append
