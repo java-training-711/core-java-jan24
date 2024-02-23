@@ -1,3 +1,20 @@
+## 23rd Feb 2024
+- Iterator and ListIterator
+- Thread highlights.
+- Assignments Below: 
+- HashMap Internal Get and Put ( N, E )
+- Which Iterator has set and remove functionality.
+- Which iterator can move backward and forward.
+- Which iterator can move forward only.
+- Iterator with map.EntrySet using while loop ( E )
+- WeakHashMap and IdentityHashMap put, get, iterate with entrySet ( E )
+- What is Enum and why it is used ( E )
+- What is parameterized Enum ( E )
+- Usage of abstract method in Enum ( E )
+- Process vs Thread ( N )
+- Context Switching in Process vs Context Switching in Thread ( N )
+- Sort array of int values in reverse order using Comparator ( E )
+
 ## 22nd Feb 2024
 - Map examples with use cases
 - HashSet, LinkedHashSet, TreeSet (custom sorting logic)
