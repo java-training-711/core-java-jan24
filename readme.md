@@ -3,17 +3,23 @@
 - Thread highlights.
 - Assignments Below: 
 - HashMap Internal Get and Put ( N, E )
-- Which Iterator has set and remove functionality.
-- Which iterator can move backward and forward.
-- Which iterator can move forward only.
+    - Hashmap Get method is used to get the value based on its Key.
+    - Hashmap Put method is used to insert the values
+- Which Iterator has set and remove functionality. - Java iterator ?
+- Which iterator can move backward and forward. - ListIterator which extends iterator
+- Which iterator can move forward only. - Iterable interface
 - Iterator with map.EntrySet using while loop ( E )
 - WeakHashMap and IdentityHashMap put, get, iterate with entrySet ( E )
 - What is Enum and why it is used ( E )
 - What is parameterized Enum ( E )
 - Usage of abstract method in Enum ( E )
 - Process vs Thread ( N )
+    - Process is an independent program instances with their own memory space and resources operates isolated.
+    - Threads are smaller units within processes that share the same memory making communication easier .
 - Context Switching in Process vs Context Switching in Thread ( N )
+    - Context switching in Threads is faster than process, as Process requires more overhead from CPU
 - Sort array of int values in reverse order using Comparator ( E )
+    - src/main/java/org/example7/task/assignmentComparator.java
 
 ## 22nd Feb 2024
 - Map examples with use cases

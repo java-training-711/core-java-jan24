@@ -3,6 +3,9 @@ package org.example5.map;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+This class doesn't have any override methods of equals and hashcode
+ */
 public class MapMain2 {
     public static void main(String[] args) {
         MapKey mapKey1 = new MapKey(101);

@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/*
+This class has override method of hashcode
+ */
 public class MapMain3 {
     public static void main(String[] args) {
         MapKey mapKey1 = new MapKey(101);
