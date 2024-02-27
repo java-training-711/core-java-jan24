@@ -31,10 +31,10 @@
 - HashMap, LinkedHashMap, TreeMap (comparable and comparator usage with custom key)
 - HashMap internal with replace and append
 ```java 
- * on hash collision/conflict do replace when: if (p.hash == hash &&
+ /* on hash collision/conflict do replace when: if (p.hash == hash &&
  *                 ((k = p.key) == key || (key != null && key.equals(k))))
  *                 e = p; 
- * otherwise append like a linked list
+ * otherwise append like a linked list */
 ```
 
 ## 20th Feb 2024
