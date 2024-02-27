@@ -34,5 +34,16 @@ public class MapMain6 {
 
         System.out.println(dataMap);
         System.out.println(dataMap.get('Y'));
+
+        System.out.println(dataMap.keySet());
+        System.out.println(dataMap.entrySet());
+        System.out.println(dataMap.containsValue(3));
+        System.out.println(dataMap.getOrDefault("O", 2));
+        System.out.println("...........");
+        System.out.println(dataMap.remove('Y'));
+        System.out.println(dataMap);
+
+        System.out.println(dataMap.size());
+
     }
 }

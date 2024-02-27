@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+/*
+This class has override methods of equals and hashcode
+ */
 public class MapMain4 {
     public static void main(String[] args) {
 

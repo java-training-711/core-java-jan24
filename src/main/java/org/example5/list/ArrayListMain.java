@@ -14,7 +14,7 @@ public class ArrayListMain {
     // remove
 
     public static void main(String[] args) {
-//        withStringElements();
+        withStringElements();
         withEmployee();
     }
 
@@ -30,6 +30,48 @@ public class ArrayListMain {
         System.out.println(employees.lastIndexOf(e3));
 //        employees.remove(e3);
         System.out.println(employees);
+
+        System.out.println("................");
+
+//        Read:
+        System.out.println(employees.get(0));
+        System.out.println(employees.get(1));
+        employees.add(e3);
+        System.out.println(employees.get(2));
+        System.out.println("...............");
+
+//        Replace:
+        employees.set(0, new Employee(4, "E4", "C4"));
+        employees.set(1, new Employee(5, "E5", "C5"));
+        employees.set(2, new Employee(6, "E6", "C6"));
+        System.out.println(employees.get(0));
+        System.out.println(employees.get(1));
+        System.out.println(employees.get(2));
+        System.out.println("....................");
+
+//        delete:
+        employees.remove(2);
+        System.out.println(employees);
+        System.out.println(".............");
+
+        List<Employee> cleanEmployeeList = Arrays.asList(e1);
+        employees.removeAll(cleanEmployeeList);
+        System.out.println(employees);
+        System.out.println("...............");
+
+        List<Employee> retainEmployee = Arrays.asList(e1);
+        employees.retainAll(retainEmployee);
+        System.out.println(employees);
+        System.out.println(".............");
+
+        Employee e4 = new Employee(10, "E10", "C10");
+        employees.add(e4);
+        System.out.println(employees);
+        employees.addAll(0, employees);
+        System.out.println(employees.get(0));
+        System.out.println("..........");
+        System.out.println(employees);
+
     }
     private static class Employee{
         private int id;
