@@ -2,7 +2,7 @@ package org.example7.task;
 
 import java.util.*;
 
-public class assignmentHashMap {
+class AssignmentHashMap {
     public static void main(String[] args) {
 //        iterableHashMap();
         weakHashmap();

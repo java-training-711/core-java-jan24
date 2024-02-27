@@ -5,9 +5,9 @@
 - HashMap Internal Get and Put ( N, E )
     - Hashmap Get method is used to get the value based on its Key.
     - Hashmap Put method is used to insert the values
-- Which Iterator has set and remove functionality. - Java iterator ?
+- Which Iterator has set and remove functionality. - List iterator 
 - Which iterator can move backward and forward. - ListIterator which extends iterator
-- Which iterator can move forward only. - Iterable interface
+- Which iterator can move forward only. - Iterator interface
 - Iterator with map.EntrySet using while loop ( E )
 - WeakHashMap and IdentityHashMap put, get, iterate with entrySet ( E )
 - What is Enum and why it is used ( E )

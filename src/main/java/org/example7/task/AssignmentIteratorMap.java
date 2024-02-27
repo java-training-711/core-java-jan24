@@ -3,9 +3,8 @@ package org.example7.task;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.logging.Handler;
 
-public class assignmentIteratorMap {
+public class AssignmentIteratorMap {
     public static void main(String[] args) {
         Map<String, Integer> array = new HashMap<>();
 

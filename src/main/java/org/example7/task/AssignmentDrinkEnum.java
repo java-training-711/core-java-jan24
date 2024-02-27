@@ -1,6 +1,6 @@
 package org.example7.task;
 
-public class assignmentDrinkEnum {
+public class AssignmentDrinkEnum {
     enum Drink {
         COFFEE,
         TEA,

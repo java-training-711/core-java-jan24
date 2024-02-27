@@ -3,7 +3,7 @@ package org.example7.task;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class assignmentComparator {
+public class AssignmentComparator {
 
     public static void main(String[] args) {
         compareReverse();
