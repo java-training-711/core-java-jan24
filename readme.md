@@ -1,3 +1,10 @@
+## 27th Feb 2024
+- MultiProcessing, MultiTasking, MultiThreading
+- Thread creation: extend Thread, implement Runnable, lambda
+- sleep time
+- wait and wait time, releases cpu
+- join waits for a thread to complete
+
 ## 23rd Feb 2024
 - Iterator and ListIterator
 - Thread highlights.
