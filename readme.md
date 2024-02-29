@@ -1,3 +1,9 @@
+## 29th Feb 2024
+- synchronized using IndexCounter
+- synchronized using IndexCounter1, IndexCounter2
+- synchronized using IndexCounter.class for static shared resources
+- synchronized to evaluate the time of execution
+
 ## 27th Feb 2024
 - MultiProcessing, MultiTasking, MultiThreading
 - Thread creation: extend Thread, implement Runnable, lambda
