@@ -1,3 +1,14 @@
+## 1st March 2024
+- wait and notify
+- deadlock BLOCKED, WAITING
+- jps, jcmd, jconsole to detect deadlock
+- Thread dumpstack
+- Exception Handling
+- checked , unchecked exception
+- throw the exception
+- throws with method signature for checked exception
+- try, catch, finally
+
 ## 29th Feb 2024
 - synchronized using IndexCounter
 - synchronized using IndexCounter1, IndexCounter2
