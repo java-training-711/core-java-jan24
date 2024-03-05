@@ -1,6 +1,7 @@
 package org.example10;
 
 public class App3 {
+    // when exception occurs, current execution thread stops if the exception not suppressed using catch block
     public static void main(String[] args) {
         m1();
     }
