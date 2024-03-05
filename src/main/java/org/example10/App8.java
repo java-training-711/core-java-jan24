@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class App8 {
     public static void main(String[] args) {
-        m1(); // due to exception here below line wont be executed
+        m1();
         System.out.println("main complete");
     }
 

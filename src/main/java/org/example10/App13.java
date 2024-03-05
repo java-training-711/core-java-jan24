@@ -1,0 +1,38 @@
+package org.example10;
+
+import java.util.Arrays;
+
+public class App13 {
+    public static void main(String[] args) {
+        m1(0); // due to exception here below line wont be executed
+        System.out.println("main complete");
+    }
+
+    public static void m1(int key){
+        int[] arr = {10,11};
+        try {
+            System.out.println("in try block");
+            if(key == 2) {
+                System.out.println(arr[2]);
+            }
+            if(key == 0){
+                int result = 2 / key;
+            }
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("array index is not valid");
+        }
+        catch(ArithmeticException e){
+            System.out.println("denum should not be zero in a division");
+        }
+        catch (RuntimeException e){ // parent can handle child exceptions
+            System.out.println(e);
+        }
+
+        finally {
+            Arrays.fill(arr, 0);
+            System.out.println("arrays filled in finally");
+        }
+       // System.out.println(Arrays.toString(arr));
+    }
+}

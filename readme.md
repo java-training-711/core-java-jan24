@@ -1,3 +1,8 @@
+## 3rd March 2024
+- User Defined Exception handling
+- File reader, writer
+- String, StringBuffer, StringBuilder, StringTokenizer
+
 ## 1st March 2024
 - wait and notify
 - deadlock BLOCKED, WAITING
